@@ -2,11 +2,9 @@
 
 <input type="text" placeholder="My Super Very Long Issue Title" id="input">
 
-<button
+<input class="button" type="submit" value="Convert"
 onclick="document.getElementById('input').value =
 document.getElementById('input').value.toLowerCase().replace(/[^a-z\d\s]/g, '').trim().replace(/\s/g,'-');return false;">
-Convert
-</button>
 
 ### Example Usage
 Given the following issue name:
