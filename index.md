@@ -1,12 +1,14 @@
-### Issue Name
+## Issue Name
 
 <input type="text" placeholder="My Super Very Long Issue Title" id="input">
 
-<input class="btn btn--primary" type="submit" value="Convert"
+<button
 onclick="document.getElementById('input').value =
 document.getElementById('input').value.toLowerCase().replace(/[^a-z\d\s]/g, '').trim().replace(/\s/g,'-');return false;">
+Convert
+</button>
 
-## Example Usage
+### Example Usage
 Given the following issue name:
 
 `# TODO: remove type ignore when mypy supports numpy #261`
