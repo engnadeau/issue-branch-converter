@@ -1,6 +1,6 @@
 ## Issue Name
 
-<input type="text" placeholder="My Super Very Long Issue Title" id="input">
+<input type="text" placeholder="My Super Very Long Issue Title" id="input" size="75">
 
 <input class="button" type="submit" value="Convert"
 onclick="document.getElementById('input').value =
